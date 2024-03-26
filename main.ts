@@ -62,7 +62,7 @@ scene.onOverlapTile(SpriteKind.Player, assets.tile`myTile2`, function (sprite, l
 info.onLifeZero(function () {
     game.showLongText("Oh no! You awoke the human! You lost", DialogLayout.Bottom)
 })
-game.splash("Escape the maze while grabbing coins and avoiding traps. But Wait! The family dog got in and is trying to hunt you down! Hurry and find the key to escape!")
+game.splash("Escape the maze while grabbing coins and avoiding traps. But Wait! The family dog got in and is trying to hunt you down! Hurry and find the key to escape! Collect exactly 3 coins to win.")
 info.setScore(0)
 info.setLife(3)
 tiles.setCurrentTilemap(tilemap`level1`)
